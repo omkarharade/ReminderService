@@ -1,0 +1,19 @@
+{
+  "name": "reminderservice",
+  "version": "1.0.0",
+  "description": "A reminder microservice ",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon src/index.js"
+  },
+  "author": "Omkar Harade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.3",
+    "sequelize": "^6.32.0",
+    "sequelize-cli": "^6.6.1"
+  }
+}
