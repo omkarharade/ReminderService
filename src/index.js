@@ -12,12 +12,12 @@ const setupAndStartServer = () => {
 	app.listen(PORT, () => {
 		console.log(`Server started at port : ${PORT}`);
 
-		sendBasicEmail(
-			"support@admin.com",
-			"booking.notification.services@gmail.com",
-			"This is a testing mail",
-			"Alola , pokemon gotta catch em all"
-		);
+		// sendBasicEmail(
+		// 	"support@admin.com",
+		// 	"booking.notification.services@gmail.com",
+		// 	"This is a testing mail",
+		// 	"Alola , pokemon gotta catch em all"
+		// );
 	});
 };
 
